@@ -7,10 +7,10 @@ import pyfiglet
 import random
 os.system("pip install PyNaCl")
 
-prefix = "~"
+prefix = "~" # Input Your Prefix
 client = commands.Bot(command_prefix=prefix,case_insensitive=True,self_bot=True)
 client.remove_command('help')
-token = "MTEwOTkwMjY5MDU2NzMyMzc5OA.Gd_msa.wkZqJMp_Ed0ibb3e0wPNtVtbgOFq_Xy3HJ-5PI"
+token = " " # Input Your Token
 author = "volksgeist#1337"
 
 versatile = pyfiglet.figlet_format(f"VERSATILE")
